@@ -1,0 +1,125 @@
+.detail-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 0px;
+  height: auto;
+  padding-left: 0px;
+}
+.details-first-section {
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.detail-home-text {
+  font-size: 11px;
+  color: rgb(111, 117, 117);
+  line-height: 5mm;
+}
+.detail-highlighted-text {
+  background-color: rgb(233, 100, 127);
+}
+.vertical-carousal-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 0px;
+}
+.vertical-slider-container {
+  display: none;
+}
+.main-product-detail-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nike-shoe {
+  width: 50%;
+}
+.size-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.size-list-container {
+  list-style: none;
+  margin-top: 20px;
+}
+.dot {
+  font-size: 20px;
+  font-weight: bold;
+}
+.size-value {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+#selected {
+  margin-top: 0px;
+  color: #eb1f1f;
+}
+.main-product-price-slider {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 968px) {
+  .detail-bg-container {
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .details-first-section {
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .vertical-slider-container {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .vertical-carousal-container {
+    width: 15%;
+    margin-top: 20px;
+  }
+  .details-first-section {
+    text-align: left;
+  }
+  .detail-bg-container {
+    padding-left: 45px;
+  }
+  .size-container {
+    width: 80%;
+  }
+  .main-product-detail-container {
+    width: 45%;
+  }
+  .nike-shoe {
+    width: 70%;
+  }
+}

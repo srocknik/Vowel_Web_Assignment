@@ -1,0 +1,8 @@
+.rc-slider-track {
+  background-color: #db3434; /* Change this to your desired color */
+}
+
+.rc-slider-handle {
+  background-color: #f31e3b; /* Change this to your desired color */
+  border: 2px solid #e96666; /* Change this to your desired color */
+}

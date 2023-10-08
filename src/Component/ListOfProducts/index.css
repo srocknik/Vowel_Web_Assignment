@@ -1,0 +1,28 @@
+.star-icon {
+  color: gold;
+  margin-bottom: 5px;
+}
+.all-product-title {
+  color: #252222;
+  font-family: roboto;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.all-product-btn-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-product-btn {
+  padding: 5px;
+  background-color: #ec3333;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 10px;
+}
+.all-product-price {
+  font-size: 10px;
+  font-family: roboto;
+}

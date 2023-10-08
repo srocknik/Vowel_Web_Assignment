@@ -1,0 +1,19 @@
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.color-slider {
+  width: 10px;
+  height: 300px;
+  background: linear-gradient(to bottom, #32cf5b, #b8790d, #0db8af, #1b0db8);
+  border-radius: 5px;
+}
